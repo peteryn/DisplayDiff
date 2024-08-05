@@ -31,7 +31,34 @@ public static class SeedData
                     PanelType = "IPS",
                     DiagonalLength = 32,
                     RefreshRate = 144,
-                    FullSpecsURL = "https://www.dell.com/en-us/shop/dell-32-4k-uhd-gaming-monitor-g3223q/apd/210-bdbk/monitors-monitor-accessories"
+                    FullSpecsURL = "https://www.dell.com/en-us/shop/dell-32-4k-uhd-gaming-monitor-g3223q/apd/210-bdbk/monitors-monitor-accessories",
+                    ImageName = "g3223q.png"
+                },
+                new Display
+                {
+                    Name = "27GP950-B",
+                    Company = "LG",
+                    VerticalResolution = 2160,
+                    HorizontalResolution = 3840,
+                    AdaptiveSync = "G-Sync Compatible",
+                    PanelType = "IPS",
+                    DiagonalLength = 27,
+                    RefreshRate = 160,
+                    FullSpecsURL = "https://www.lg.com/us/monitors/lg-27gp950-b-gaming-monitor",
+                    ImageName = "27gp950-b.png"
+                },
+                new Display
+                {
+                    Name = "32GS95UE-B",
+                    Company = "LG",
+                    VerticalResolution = 2160,
+                    HorizontalResolution = 3840,
+                    AdaptiveSync = "G-Sync Compatible",
+                    PanelType = "OLED",
+                    DiagonalLength = 32,
+                    RefreshRate = 240,
+                    FullSpecsURL = "https://www.lg.com/us/monitors/lg-32gs95ue-b-gaming-monitor",
+                    ImageName = "32gs95ue-b.png"
                 }
             );
             context.SaveChanges();

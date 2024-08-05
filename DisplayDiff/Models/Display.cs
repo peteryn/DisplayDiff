@@ -12,4 +12,5 @@ public class Display
     public decimal DiagonalLength { get; set; }
     public int RefreshRate { get; set; }
     public string FullSpecsURL { get; set; }
+    public string ImageName { get; set; }
 }
